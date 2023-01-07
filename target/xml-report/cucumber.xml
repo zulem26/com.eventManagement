@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.799">
+    <testcase classname="US003 user dashboard" name="user can view the dashboard" time="27.025">
+        <system-out>
+            <![CDATA[Given user go to "piton" page...............................................passed
+When user should redirect to login page if not authenticated "invalid_user" "invalid_password".passed
+And user types valid "automationtest" in username box and valid "123456789" in password box.passed
+And user should view notification message states no registered event found..passed
+And user should be able navigate edit event when click the edit event button.passed
+And user should be able to view event participants..........................passed
+And user should be able to delete event when click the delete button........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
